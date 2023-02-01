@@ -42,7 +42,7 @@ bool operator!=(Color left, Color right) {
 bool already_collected(const std::vector<AABB> &boxes, int x, int y) {
 	for(const AABB &box : boxes) {
 		if( x >= box.left && y >= box.top && x < box.left + box.width && y < box.top + box.height )
-			return true; 
+			return true;
 	}
 	return false;
 }

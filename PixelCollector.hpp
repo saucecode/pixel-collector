@@ -36,7 +36,7 @@ typedef struct {
 } Color;
 
 typedef struct {
-	float left; float top; float width; float height;
+	int left; int top; int width; int height;
 	Color color;
 } AABB;
 
