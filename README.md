@@ -1,7 +1,7 @@
 # pixel-collector
 Collects clumps of adjacent pixels into rectangles. This library easily drops into existing projects as a pair of header/source files.
 
-The current implementation is in C++11 and requires `std::bind` and `std::vector`. Porting it to C is left as an exercise to the reader.
+The C++11 implementation requires `std::bind` and `std::vector`. The C implementation does not.
 
 ## Example usage
 
@@ -21,7 +21,7 @@ int main() {
 }
 ```
 
-See `main.cpp` for more.
+See `main.cpp` and `main.c` for more.
 
 ### Example input
 
